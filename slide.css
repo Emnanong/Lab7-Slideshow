@@ -1,0 +1,41 @@
+.slideshow-container { /* center the container*/
+  background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid rgb(255, 0, 149);
+    padding: 0 2em 1em;
+}
+h2 {
+  text-align: center;
+  color: blue;
+}
+p {
+  text-align: center;
+}
+img { /* center images*/
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.mySlides {
+  display: none;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.startBtn, .pauseBtn {
+  background-color: #f25d27;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
